@@ -1,2 +1,117 @@
 # Argilla-Bella
 Jewelery tray 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Argilla Bella Jewelry</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #b3e5fc, #0288d1);
+      margin: 0;
+      color: #03396c;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.9);
+      text-align: center;
+      padding: 1rem 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #01579b;
+      margin: 0;
+    }
+
+    .product-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .product-info {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .product-info h3 {
+      margin: 10px 0 5px;
+      color: #0277bd;
+    }
+
+    .product-info p {
+      margin: 5px 0;
+      font-size: 1.1rem;
+      color: #01579b;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: rgba(255,255,255,0.9);
+      color: #01579b;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Argilla Bella Jewelry</h1>
+    <p>Beautiful handmade trays & jewelry organizers</p>
+  </header>
+
+  <section class="product-section">
+    <div class="product-card">
+      <img src="https://i.pinimg.com/564x/a8/2b/aa/a82baa0c55b6b68de7a1ee963b52f6ef.jpg" alt="Blue Jewelry Tray">
+      <div class="product-info">
+        <h3>Blue Crystal Tray</h3>
+        <p>$25.99</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://i.pinimg.com/564x/1f/a0/54/1fa0540e2265f4e86d2a7b4ce5c37329.jpg" alt="Marble Jewelry Dish">
+      <div class="product-info">
+        <h3>Marble Shine Dish</h3>
+        <p>$29.50</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://i.pinimg.com/564x/f3/b5/32/f3b532ac89dfdd47ec3b0a2b9ac0d01c.jpg" alt="Gold Edge Tray">
+      <div class="product-info">
+        <h3>Gold Edge Tray</h3>
+        <p>$33.00</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Argilla Bella. All Rights Reserved.
+  </footer>
+</body>
+</html>
+
